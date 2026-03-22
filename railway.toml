@@ -1,0 +1,9 @@
+app_name = "task-manager"
+app_description = "A REST API for managing tasks"
+app_version = "1.0.0"
+
+[variables]
+  DATABASE_URL = ${DATABASE_URL}
+  SECRET_KEY = ${SECRET_KEY}
+  ALGORITHM = ${ALGORITHM}
+  ACCESS_TOKEN_EXPIRE_MINUTES = ${ACCESS_TOKEN_EXPIRE_MINUTES}
